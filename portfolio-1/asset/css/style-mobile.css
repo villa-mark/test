@@ -1,0 +1,375 @@
+/* NAVIGATION BAR STYLING */
+
+nav, #empty{
+  height: 20vw;
+}
+
+.logo img{
+  width: 60vw;
+}
+
+.navigation img{
+  width: 12vw;
+}
+
+.navLink{
+  display: none;
+}
+
+/* MAIN STYLING */
+
+main{
+  height: 130vw;
+  text-align: center;
+}
+
+.circleContainer{
+  position: relative;
+  width: 100vw;
+  height: 80vw;
+  text-align: center;
+}
+
+.circle{
+  position: absolute;
+  width: 70vw;
+  height: 75vw;
+  top: 4%;
+  left: 15%;
+  border-radius: 50%;
+  background-image: linear-gradient(#B8B8B8, #737373);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.343);
+  overflow: hidden;
+}
+
+.circle img{
+  width: 80%;
+  padding-left: 8vw;
+}
+
+.info{
+  height: 28vh;
+  text-align: center;
+}
+
+.info h3{
+  font-size: 6vw;
+  font-weight: 400;
+}
+
+.info h1{
+  font-size: 9vw;
+  font-weight: 550;
+}
+
+.info h2{
+  font-size: 5vw;
+}
+
+.info button{
+  width: 39vw;
+  font-size: 4vw;
+  padding: 2vw;
+  margin: 5vw 3vw;
+  border-radius: 20vw;
+  transition: 0.2s;
+}
+
+.cvBtn{
+  border: 0.4vw solid #2D2B2B;
+  background-color: #B8B8B8;
+}
+
+.contactBtn{
+  border: none;
+  color: white;
+  background-color: #2D2B2B;
+}
+
+/* ABOUT ME STYLING */
+
+#about{
+  width: 100vw;
+  height: 210vw;
+  background-color: #2D2B2B;
+}
+
+#about h1, h3{
+  pointer-events: none;
+  color: #B8B8B8;
+}
+
+#about > h3{
+  display: inline-block;
+  font-size: 2vw;
+  margin-top: 5vw;
+}
+
+#about > h1{
+  font-size: 7vw;
+}
+
+#aboutContentContainer{
+  position: relative;
+  width: 100vw;
+}
+
+#infomation-about{
+  width: 100%;
+  height: 100%;
+}
+
+#idcontainer{
+  width: 80vw;
+  height: 80vw;
+  margin: 5vw 10vw;
+  background-color: blue;
+  border-radius: 10vw 0vw;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.478), 
+              -10px -10px 10px rgba(0, 0, 0, 0.478);
+  overflow: hidden;
+}
+
+#idcontainer img{
+  position: relative;
+  top: -25%;
+  left: -10%; 
+  width: 130%;  
+  filter: grayscale(30%)
+}
+
+#infomation-about p{
+  width: 80vw;
+  color: #B8B8B8;
+  font-size: 3vw;
+  margin-left: 10vw;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 5vw;
+}
+
+
+#aboutEducationSkills{
+  width: 100vw;
+  margin: auto;
+}
+
+#aboutEducationSkills > div{
+  position: relative;
+  width: 80vw;
+  height: 30vw;
+  margin: 10vw;
+  border-radius: 5vw 0vw;
+  box-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.606);
+}
+
+#aboutEducationSkills h2{
+  position: relative;
+  color: #B8B8B8;
+  padding: 3vw;
+  font-size: 4.3vw;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+#aboutEducationSkills p{
+  pointer-events: none;
+}
+
+#diploma{
+  font-size: 4vw;
+  font-weight: 550;
+  margin-top: 1vw;
+}
+
+#school{
+  margin-top: 3vw;
+}
+
+.schoolname{
+  font-size: 3vw;
+}
+
+#education{
+  background-color: #424141;
+}
+
+/* SKILLS STYLING */
+
+#skills{
+  background-color: #424141;
+}
+
+#scrollSkill{
+  display: flex;
+  width: 73vw;
+  height: 17vw;
+  margin-left: 4vw;
+  overflow-x: scroll;
+}
+
+#scrollSkill div{
+  display: flex;
+  width: 20%;
+  height: 70%;
+  margin-left: 3vw;
+}
+
+#scrollSkill div img{
+  min-width: 100%;
+  object-fit: contain;
+}
+
+/* PROJECT STYLING */
+
+#project{
+  height: 125vw;
+  background-color: #B8B8B8;
+}
+
+#project h3, h1{
+  pointer-events: none;
+}
+
+#project h3{
+  font-size: 2vw;
+  margin-top: 10vw;
+  color: black;
+}
+
+#project h1{
+  font-size: 7vw;
+  margin-bottom: 7vw;
+}
+
+#projectContainer::-webkit-scrollbar{
+  display: none;
+}
+
+#projectContainer{
+  margin: auto;
+  width: 90vw;
+  height: 100vw;
+  border-radius: 40px;
+  background-color: #737373;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.823), 
+              -5px -5px 10px rgba(0, 0, 0, 0.628);
+  overflow: auto;
+}
+
+#projectContainer > div{
+  width: 80vw;
+  height: 90vw;
+  margin: 10vw auto;
+  background-color: #2D2B2B;
+  border-radius: 10vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
+}
+
+#projectContainer div p{
+  font-size: 5vw;
+  padding: 3vw;
+  font-weight: 600;
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+#projectContainer div div{
+  width: 90%;
+  height: 70%;
+  margin: auto;
+  border: 1vw solid black;
+  border-radius: 4vw;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.504);
+}
+
+#projectContainer div div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projectContainer div button{
+  margin-top: 3vw;
+  font-size: 5vw;
+  width: 80%;
+  border-radius: 10vw;
+  background-color: #B8B8B8;
+  transition: 0.2s;
+}
+
+
+#projectContainer div button:hover{
+  background-color: #7c7b7b;
+  color: #B8B8B8;
+}
+
+/* CONTACT INFORMATION */
+
+#footerContainer{
+  height: 80vw;
+  background-color: #2D2B2B;
+}
+
+#footerContainer h1, h3{
+  color: #B8B8B8;
+}
+
+#footerContainer > h3{
+  display: inline-block;
+  font-size: 2vw;
+  margin-top: 10vw;
+}
+
+#footerContainer > h1{
+  font-size: 7vw;
+  margin-left: 2vw;
+}
+
+.contactContainer{
+  width: 80vw;
+  margin-left: 8vw;
+  margin-top: 10vw;
+}
+
+.contactContainer > div{
+  display: flex;
+  gap: 2vw;
+  width: 100%;
+  justify-content: left;
+  margin-top: 2vw;
+  align-items: center;
+}
+
+.contactLogo div{
+  display: 
+  inline-block;
+  width: 5vw;
+  height: 5vw;
+}
+
+.contactLogo img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.contactLogo p{
+  font-size: 3.5vw;
+}
+.contactLogo a{
+  text-decoration: none;
+  color: #B8B8B8;
+  transition: 0.5s;
+}
+
+.num{
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+.contactLogo a:hover{
+  text-decoration: underline;
+  color: #1900ff62;
+}
+

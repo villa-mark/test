@@ -1,0 +1,242 @@
+nav, #empty{
+  height: 70px;
+  box-shadow: none;
+}
+
+.logo img{
+  width: 200px;
+}
+
+.navLink{
+  font-size: 20px;
+  margin-top: 36px;
+  gap: 5vw;
+}
+
+/* MAIN */
+
+ 
+main{
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.circleContainer{
+  max-width: 460px;
+  height: 100%;
+}
+
+.circle{
+  width: 370px;
+  height: 400px;
+  top: 100px;
+  right: 100px;
+  border-radius: 50%;
+  background-image: linear-gradient(#B8B8B8, #737373);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.343);
+  overflow: hidden;
+}
+
+.circle img{
+  width: 80%;
+  padding-left: 55px;
+}
+
+.info{
+  min-width: 460px;
+  height: 100%;
+  text-align: center;
+}
+
+.info h3{
+  margin-top: 150px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.info h1{
+  font-size: 45px;
+  font-weight: 550;
+} 
+
+.info h2{
+  font-size: 25px;
+  margin-bottom: 4vw;
+}
+
+.info button{
+  width: 260px;
+  font-size: 25px;
+  padding: 10px;
+  margin: 10px 10px;
+  border-radius: 20vw;
+}
+
+.cvBtn{
+  border: 2px solid #2D2B2B;
+  background-color: #B8B8B8;
+}
+
+.contactBtn{
+  border: none;
+  color: white;
+  background-color: #2D2B2B;
+}
+
+/* ABOUT STYLING */
+
+
+
+/* PROJECT STYLING */
+
+#project{
+  height: 750px;
+  background-color: #B8B8B8;
+}
+
+#project h3, h1{
+  pointer-events: none;
+  color: black;
+}
+
+#project h3{
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+#project h1{
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+#projectContainer::-webkit-scrollbar{
+  display: none;
+}
+#projectContainer{
+  display: flex;
+  width: 800px;
+  margin: auto; 
+  padding: 20px;
+  border-radius: 40px;
+  background-color: #737373;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.823), 
+              -5px -5px 10px rgba(0, 0, 0, 0.628);
+  overflow: auto;
+}
+
+#projectContainer > div{
+  display: inline-block;
+  width: 400px;
+  height: 465px;
+  margin: 40px;
+  background-color: #2D2B2B;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
+}
+
+#projectContainer div p{
+  font-size: 25px;
+  padding: 30px;
+  font-weight: 600;
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+#projectContainer div div{
+  width: 350px; 
+  height: 250px;
+  margin: 20px;
+  border: 5px solid black;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.504);
+}
+
+#projectContainer div div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projectContainer div button{
+  margin-top: 20px;
+  font-size: 25px;
+  width: 80%;
+  border-radius: 20px;
+  background-color: #B8B8B8;
+  transition: 0.2s;
+}
+
+
+#projectContainer div button:hover{
+  background-color: #7c7b7b;
+  color: #B8B8B8;
+}
+
+/* CONTACT STYLING */
+
+#footerContainer{
+  height: 600px;
+  background-color: #2D2B2B;
+}
+
+#footerContainer h1, h3{
+  color: #B8B8B8;
+}
+
+#footerContainer > h3{
+  display: inline-block;
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+#footerContainer > h1{
+  font-size: 50px;
+  margin-bottom: 80px; 
+}
+
+.contactContainer{
+  width: 800px;
+  margin: auto;
+}
+
+.contactContainer > div{
+  display: flex;
+  gap: 30px;
+  width: 100%;
+  justify-content: left;
+  margin-top: 20px;
+  align-items: center;
+  padding-top: 1px;
+}
+
+
+.contactLogo div{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.contactLogo img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.contactLogo p{
+  font-size: 25px;
+}
+.contactLogo a{
+  text-decoration: none;
+  color: #B8B8B8;
+  transition: 0.5s;
+}
+
+.num{
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+.contactLogo a:hover{
+  text-decoration: underline;
+  color: #1900ff62;
+}

@@ -1,0 +1,395 @@
+/* /NAVIGATION  BAR STYLING */
+
+nav, #empty{
+  height: 13vw;
+}
+
+.logo img{
+  width: 35vw;
+}
+
+.navigation img{
+  display: none;
+}
+
+.navLink{
+  display: flex;
+  font-size: 2.5vw;
+  margin-top: 9vw;
+  gap: 5vw;
+  list-style-type: none;
+}
+
+.navLink a{
+  text-decoration: none;
+  color: black;
+}
+
+.navLink a:hover{
+  text-decoration: underline;
+  color: rgba(64, 63, 63, 0.897);
+}
+
+/* MAIN STYLING */
+
+main{
+  display: flex;
+  height: 60vw;
+}
+
+.circleContainer{
+  position: relative;
+  width: 50vw;
+  height: 60vw;
+}
+
+.circle{
+  position: absolute;
+  width: 40vw;
+  height: 43vw;
+  top: 8vw;
+  left: 9vw;
+  border-radius: 50%;
+  background-image: linear-gradient(#B8B8B8, #737373);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.343);
+  overflow: hidden;
+}
+
+.circle img{
+  width: 80%;
+  padding-left: 6vw;
+}
+
+.info{
+  display: inline;
+  position: relative;
+  width: 50vw;
+  height: 60vw;
+  text-align: center;
+}
+
+.info h3{
+  margin-top: 13vw;
+  font-size: 2.5vw;
+  font-weight: 400;
+  color: black;
+}
+
+.info h1{
+  font-size: 4.5vw;
+  font-weight: 550;
+  margin: 1vw 0vw;
+}
+
+.info h2{
+  font-size: 2.5vw;
+  font-weight:550;
+  margin-bottom: 4vw;
+}
+
+.info button{
+  width: 30vw;
+  font-size: 3vw;
+  padding: 1vw;
+  margin: 1vw 3vw;
+  border-radius: 20vw;
+  transition: 0.4s;
+}
+
+.cvBtn{
+  border: 0.2vw solid #2D2B2B;
+  background-color: #B8B8B8;
+}
+
+.contactBtn{
+  border: none;
+  color: white;
+  background-color: #2D2B2B;
+}
+
+/* ABOUT STYLING */
+
+#about{
+  height: 50vw;
+  background-color: #2D2B2B;
+  text-align: center;
+}
+
+#about h1, h3{
+  color: #B8B8B8;
+}
+
+#about > h3{
+  display: inline-block;
+  margin-top: 5vw;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+#about > h1{
+  font-size: 3vw;
+}
+
+#aboutContentContainer{
+  display: flex;
+  position: relative;
+  width: 80vw;
+  height: 80%;
+  margin: auto;
+}
+
+#infomation-about{
+  width: 50%;
+  height: 100%;
+}
+
+#idcontainer{
+  width: 50%;
+  height: 50%;
+  transform: translateX(50%);
+  background-color: blue;
+  overflow: hidden;
+  border-radius: 20% 0%;
+  margin-top: 10%;
+}
+
+#idcontainer img{
+  position: relative;
+  top: -25%;
+  left: -10%;
+  width: 130%;  
+  filter: grayscale(30%)
+}
+
+#infomation-about p{
+  color: #B8B8B8;
+  font-size: 1.5vw;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-top: 5%;
+}
+
+#aboutEducationSkills{
+  width: 50%;
+  height: 100%;
+  margin: auto;
+}
+
+#aboutEducationSkills > div{
+  position: relative;
+  width: 80%;
+  height: 35%;
+  margin: 10%;
+  border-radius: 5vw 0vw;
+  box-shadow: 3px 3px 10px hsla(0, 0%, 0%, 0.606);
+}
+
+#aboutEducationSkills h2{
+  position: relative;
+  color: #B8B8B8;
+  padding: 3%;
+  font-size: 1.7vw;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+#aboutEducationSkills p{
+  pointer-events: none;
+}
+
+#diploma{
+  font-size: 1.7vw;
+  font-weight: 550;
+  margin-top: 2%;
+}
+
+#school{
+  margin-top: 3%;
+}
+
+.schoolname{
+  font-size: 1.2vw;
+}
+
+#education{
+  background-color: #424141;
+}
+
+/* SKILLS STYLING */
+
+#skills{
+  background-color: #424141;
+}
+
+#scrollSkill{
+  display: flex;
+  width: 90%;
+  height: 60%;
+  margin-left: 5%;
+  overflow-x: scroll;
+}
+
+#scrollSkill div{
+  display: flex;
+  width: 20%;
+  height: 70%;
+}
+
+#scrollSkill div img{
+  min-width: 100%;
+  object-fit: contain;
+}
+
+
+
+/* PROJECT STYLING */
+#project{
+  height: 83vw;
+  background-color: #B8B8B8;
+}
+
+#project h3, h1{
+  pointer-events: none;
+  color: black;
+}
+
+#project h3{
+  font-size: 1vw;
+  margin-top: 5vw;
+}
+
+#project h1{
+  font-size: 4vw;
+  margin-bottom: 50px;
+}
+
+#projectContainer::-webkit-scrollbar{
+  display: none;
+}
+#projectContainer{
+  display: flex;
+  width: 80vw;
+  margin: auto; 
+  padding: 5vw;
+  border-radius: 3vw;
+  background-color: #737373;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.823), 
+              -5px -5px 10px rgba(0, 0, 0, 0.628);
+  overflow: auto;
+}
+
+#projectContainer > div{
+  display: inline-block;
+  height: 52vw;
+  margin: 2vw;
+  background-color: #2D2B2B;
+  border-radius: 5vw;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.494);
+}
+
+#projectContainer div p{
+  font-size: 3vw;
+  padding: 3vw;
+  font-weight: 600;
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+#projectContainer div div{
+  width: 40vw; 
+  height: 30vw;
+  margin: 2vw;
+  border: 0.5vw solid black;
+  border-radius: 2vw;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.504);
+}
+
+#projectContainer div div img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#projectContainer div button{
+  margin-top: 1vw;
+  font-size: 3vw;
+  width: 35vw;
+  border-radius: 10vw;
+  background-color: #B8B8B8;
+  transition: 0.2s;
+}
+
+
+#projectContainer div button:hover{
+  background-color: #7c7b7b;
+  color: #B8B8B8;
+}
+
+/* CONTACT STYLING */
+
+#footerContainer{
+  height: 48vw;
+  background-color: #2D2B2B;
+}
+
+#footerContainer h1, h3{
+  color: #B8B8B8;
+}
+
+#footerContainer > h3{
+  display: inline-block;
+  font-size: 1vw;
+  margin-top: 4vw;
+}
+
+#footerContainer > h1{
+  font-size: 4vw;
+  margin-bottom: 3vw;
+}
+
+.contactContainer{
+  width: 100vw;
+}
+
+.contactContainer > div{
+  display: flex;
+  gap: 2vw;
+  width: 80vw;
+  justify-content: left;
+  margin-top: 2vw;
+  align-items: center;
+  margin: auto;
+  padding-top: 1.5vw;
+}
+
+.contactLogo div{
+  display: inline-block;
+  width: 3.5vw;
+  height: 3.5vw;
+}
+
+.contactLogo img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.contactLogo p{
+  font-size: 2.5vw;
+}
+
+.contactLogo a{
+  text-decoration: none;
+  color: #B8B8B8;
+  transition: 0.5s;
+}
+
+.num{
+  color: #B8B8B8;
+  pointer-events: none;
+}
+
+.contactLogo a:hover{
+  text-decoration: underline;
+  color: #1900ff62;
+}
